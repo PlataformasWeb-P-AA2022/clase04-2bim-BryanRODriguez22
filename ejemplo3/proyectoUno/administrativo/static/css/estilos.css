@@ -2,14 +2,14 @@
 
 body {
   /*background: #FEFEFD;*/
-  background: #FEFEFD;
+  background: white;
   padding: 10px;
 
 }
 
 header {
   background: #034275;
-  color: #FFF;
+  color: white;
 }
 /* manejo de las características de la etiqueta table*/
 th, td {
@@ -58,7 +58,9 @@ label {
   list-style:none;
   float:left;
   padding: 5px;
-  width:95%;
+  width:99.45%;
+  background-color: #FFF;
+  color: black;
 }
 
 .top_menu ul li
@@ -70,7 +72,17 @@ label {
 
 }
 
+section {
+  background: #F4AB14;
+}
+
 footer{
-  background: #5E5E5E;
-  color: #FFF;
+  background: #034275;
+  color: #F4AB14;
+}
+
+footer > p {
+  margin-top: 10px;
+  border: #034275;
+  
 }
